@@ -3,16 +3,14 @@ const program = require('commander');
 const colors = require('colors');
 const create = require('../lib/create');
 
-const root = process.cwd();
-
 program
   .version('0.0.1')
   .description(`
   Quickly Create pages for miniapp.
 
-  ${'e.g.'.blue}
+  ${colors.blue('e.g.')}
 
-    ${'$'.gray} ${'cmp index/index'.green}
+    ${colors.gray('$')} ${colors.green('cmp index/index')}
 
   Out:
 
