@@ -17,7 +17,7 @@ program
   Out:
 
     - ${'index/index.json'.magenta}
-    - ${'index/index.js'.magenta}
+    - ${'index/index.ts'.magenta}
     - ${'index/index.wxml'.magenta}
     - ${'index/index.wxss'.magenta}
   `);
