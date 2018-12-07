@@ -13,23 +13,23 @@ $ npm i -g quickly-create-miniapp-page
 ### Default create page for typescript
 
 ``` bash
-$ cmp pages/home/home # create four files for page/home/home.{ts, json, wxml, wxss}
+$ qcmp pages/home/home # create four files for page/home/home.{ts, json, wxml, wxss}
 ```
 
 ### Create page for javascript
 
 ``` bash
-$ cmp pages/java/script -s js # -s abbreviate from --script
+$ qcmp pages/java/script -s js # -s abbreviate from --script
 ```
 
 ### Create multiple pages
 
 ``` bash
-$ cmp pages/first/page pages/another/page
+$ qcmp pages/first/page pages/another/page
 ```
 
 ### For my colleagues
 
 ``` bash
-$ cmp --th pages/suit/page
+$ qcmp --th pages/suit/page
 ```

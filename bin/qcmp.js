@@ -10,7 +10,7 @@ program
 
   ${colors.blue('e.g.')}
 
-    ${colors.gray('$')} ${colors.green('cmp index/index')}
+    ${colors.gray('$')} ${colors.green('qcmp index/index')}
 
   Out:
 
