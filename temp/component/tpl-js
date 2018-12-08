@@ -1,0 +1,78 @@
+Component({
+  options: {
+
+  },
+  /**
+   * ReadOnly data
+   */
+  properties: {
+
+  },
+
+  /**
+   * Private data
+   */
+  data: {
+
+  },
+
+  behaviors: [],
+
+  /**
+   * @since 2.2.3 SDKVersion
+   */
+  lifetimes: {
+    /**
+     * @description Don't use `setData` method in this lifecycle
+     */
+    created() {
+
+    },
+
+    attached() {
+
+    },
+
+    ready() {
+
+    },
+
+    moved() {
+
+    },
+
+    detached() {
+
+    },
+  },
+
+  // Compatible with lower SDKVersions
+
+  /**
+    * @description Don't use `setData` method in this lifecycle
+    */
+  created() {
+
+  },
+
+  attached() {
+
+  },
+
+  ready() {
+
+  },
+
+  moved() {
+
+  },
+
+  detached() {
+
+  },
+
+  methods: {
+
+  },
+
+})

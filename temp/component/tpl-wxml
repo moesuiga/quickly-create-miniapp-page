@@ -1,0 +1,4 @@
+<view class="wrap">
+  <view>Component {{name}}</view>
+  <slot></slot>
+</view>
