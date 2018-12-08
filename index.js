@@ -1,1 +1,1 @@
-require('./bin/cmp');
+require('./bin/qcmp');

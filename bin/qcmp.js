@@ -5,6 +5,7 @@ const create = require('../lib/create');
 
 program
   .version('0.0.1')
+  .usage('<pages/components> [options]')
   .description(`
   Quickly Create pages for miniapp.
 
