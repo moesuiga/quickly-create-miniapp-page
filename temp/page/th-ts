@@ -1,4 +1,4 @@
-import BasePage '@modules/basePage';
+import { BasePage } from '@modules/basePage';
 
 interface IPageData {
 
