@@ -3,8 +3,10 @@ const program = require('commander');
 const colors = require('colors');
 const create = require('../lib/create');
 
+const package = require('../package.json')
+
 program
-  .version('0.0.1')
+  .version(package.version)
   .usage('<pages/components> [options]')
   .description(`
   Quickly Create pages for miniapp.
