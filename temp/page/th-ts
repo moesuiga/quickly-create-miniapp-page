@@ -7,7 +7,7 @@ interface IPageData {
 interface {{name}} {
   setData(
     data: { [key in keyof IPageData]?: IPageData[key] },
-    callback?: () => void;
+    callback?: () => void
   ): void;
 }
 
