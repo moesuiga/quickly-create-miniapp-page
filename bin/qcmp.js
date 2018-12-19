@@ -25,7 +25,7 @@ program
 
 program
   .option('-s, --script [type]', 'The type of script file. [js/ts]', 'ts')
-  .option('-p, --page [type]', 'page/P or component/C', 'page')
+  .option('-C, --comp', 'create component(s)')
   .option('--th', 'Use with my company')
   .parse(process.argv);
 
